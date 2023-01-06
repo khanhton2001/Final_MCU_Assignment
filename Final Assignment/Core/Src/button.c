@@ -13,7 +13,11 @@ static int debounceButtonBuffer1[NO_OF_BUTTONS];
 static int debounceButtonBuffer2[NO_OF_BUTTONS];
 static int debounceButtonBuffer3[NO_OF_BUTTONS];
 
+static int buttonState[NO_OF_BUTTONS] = {BUTTON_IS_RELEASED, BUTTON_IS_RELEASED, BUTTON_IS_RELEASED, BUTTON_IS_RELEASED};
 
+static int counterForButtonPressed[NO_OF_BUTTONS];
+
+static int button_flag[NO_OF_BUTTONS];
 
 int isButtonPressed(int index){
 	if(button_flag[index] == 1){
