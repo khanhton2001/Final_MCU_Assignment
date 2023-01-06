@@ -33,8 +33,7 @@ void automatic_run(){
 				status=AUTO_RED_YELLOW;
 
 			}
-			pedsStatus = PED_GREEN;
-			UART_display();
+
 		}
 
 		if(isButtonPressed(1)){
