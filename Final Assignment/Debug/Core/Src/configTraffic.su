@@ -1,0 +1,6 @@
+../Core/Src/configTraffic.c:9:6:configRed1	4	static
+../Core/Src/configTraffic.c:16:6:configGreen1	4	static
+../Core/Src/configTraffic.c:21:6:configYellow1	4	static
+../Core/Src/configTraffic.c:26:6:configRed2	4	static
+../Core/Src/configTraffic.c:32:6:configGreen2	4	static
+../Core/Src/configTraffic.c:37:6:configYellow2	4	static

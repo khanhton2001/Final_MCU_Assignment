@@ -1,0 +1,5 @@
+../Core/Src/trafficPeds.c:9:6:pedsRed	8	static
+../Core/Src/trafficPeds.c:14:6:pedsGreen	8	static
+../Core/Src/trafficPeds.c:19:6:pedsYellow	8	static
+../Core/Src/trafficPeds.c:24:6:turnOffPeds	8	static
+../Core/Src/trafficPeds.c:30:6:UART_display	16	static
