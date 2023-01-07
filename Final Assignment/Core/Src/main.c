@@ -301,8 +301,6 @@ static void MX_USART2_UART_Init(void)
 
 /**
   * @brief GPIO Initialization Function
-  * @param None
-  * @retval None
   */
 static void MX_GPIO_Init(void)
 {
