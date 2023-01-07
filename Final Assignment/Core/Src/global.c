@@ -1,7 +1,6 @@
 /*
  * global.c
  *
- *
  */
 #include "global.h"
 
