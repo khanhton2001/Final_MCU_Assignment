@@ -13,7 +13,6 @@ void tuning_run(){
 	case SETTING_RED1:
 
 		if(timer1_flag){
-//			timer1_flag = 0;
 			setTimer1(1000);
 			toggleRed1();
 		}
@@ -50,7 +49,6 @@ void tuning_run(){
 		break;
 	case SETTING_RED2:
 		if(timer1_flag){
-			timer1_flag = 0;
 			setTimer1(1000);
 			toggleRed2();
 		}
@@ -86,7 +84,6 @@ void tuning_run(){
 	case SETTING_GREEN1:
 
 		if(timer1_flag){
-			timer1_flag = 0;
 			setTimer1(1000);
 			toggleGreen1();
 		}
@@ -123,7 +120,6 @@ void tuning_run(){
 	case SETTING_GREEN2:
 
 		if(timer1_flag){
-			timer1_flag = 0;
 			setTimer1(1000);
 			toggleGreen2();
 		}
@@ -159,7 +155,6 @@ void tuning_run(){
 		break;
 	case SETTING_YELLOW1:
 		if(timer1_flag){
-			timer1_flag = 0;
 			setTimer1(1000);
 			toggleYellow1();
 		}
@@ -194,7 +189,6 @@ void tuning_run(){
 		break;
 	case SETTING_YELLOW2:
 		if(timer1_flag){
-			timer1_flag = 0;
 			setTimer1(1000);
 			toggleYellow2();
 		}

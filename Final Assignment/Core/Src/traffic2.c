@@ -30,18 +30,15 @@ void turnOffTraffic2(){
 
 
 void toggleRed2(){
-	// Only use when led is clear or red.
 	HAL_GPIO_TogglePin(TL2_0_GPIO_Port, TL2_0_Pin);
 }
 
 void toggleGreen2(){
-	// Only use when led is clear or green.
 	HAL_GPIO_TogglePin(TL2_1_GPIO_Port, TL2_1_Pin);
 }
 
 
 void toggleYellow2(){
-	// Only use when led is clear or yellow.
 	HAL_GPIO_TogglePin(TL2_0_GPIO_Port, TL2_0_Pin);
 	HAL_GPIO_TogglePin(TL2_1_GPIO_Port, TL2_1_Pin);
 }

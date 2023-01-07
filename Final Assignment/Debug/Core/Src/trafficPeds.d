@@ -25,8 +25,8 @@ Core/Src/trafficPeds.o: ../Core/Src/trafficPeds.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- ../Core/Inc/global.h ../Core/Inc/timer.h ../Core/Inc/button.h \
- ../Core/Inc/traffic1.h ../Core/Inc/traffic2.h \
+ ../Core/Inc/global.h ../Core/Inc/trafficPeds.h ../Core/Inc/timer.h \
+ ../Core/Inc/button.h ../Core/Inc/traffic1.h ../Core/Inc/traffic2.h \
  ../Core/Inc/configTraffic.h ../Core/Inc/utils.h
 ../Core/Inc/trafficPeds.h:
 ../Core/Inc/main.h:
@@ -56,6 +56,7 @@ Core/Src/trafficPeds.o: ../Core/Src/trafficPeds.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 ../Core/Inc/global.h:
+../Core/Inc/trafficPeds.h:
 ../Core/Inc/timer.h:
 ../Core/Inc/button.h:
 ../Core/Inc/traffic1.h:

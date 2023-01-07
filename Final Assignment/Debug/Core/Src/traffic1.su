@@ -3,5 +3,5 @@
 ../Core/Src/traffic1.c:21:6:Yellow_1	8	static
 ../Core/Src/traffic1.c:26:6:turnOffTraffic1	8	static
 ../Core/Src/traffic1.c:31:6:toggleRed1	8	static
-../Core/Src/traffic1.c:36:6:toggleGreen1	8	static
-../Core/Src/traffic1.c:41:6:toggleYellow1	8	static
+../Core/Src/traffic1.c:35:6:toggleGreen1	8	static
+../Core/Src/traffic1.c:39:6:toggleYellow1	8	static

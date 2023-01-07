@@ -62,5 +62,7 @@ void tuningReturnToAuto(){
 	UART_display();
 	Red_1();
 	Green_2();
+	pedsGreen();
+	pedsStatus = PED_GREEN;
 }
 

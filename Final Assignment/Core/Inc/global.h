@@ -7,7 +7,7 @@
 #ifndef INC_GLOBAL_H_
 #define INC_GLOBAL_H_
 
-#include <trafficPeds.h>
+#include "trafficPeds.h"
 #include "timer.h"
 //#include "main.h"
 #include "button.h"
