@@ -214,14 +214,7 @@ void tuning_run(){
 			break;
 		}
 
-		if(isButtonPressed(3)){
-			numberCounter++;
-			if(numberCounter > redDuration1 - 1){
-				numberCounter = 1;
-			}
-			UART_display();
-		}
-		break;
+		
 	default:
 		break;
 	}
