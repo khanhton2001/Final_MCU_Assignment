@@ -162,11 +162,7 @@ void SystemClock_Config(void)
   }
 }
 
-/**
-  * @brief TIM2 Initialization Function
-  * @param None
-  * @retval None
-  */
+
 static void MX_TIM2_Init(void)
 {
 
@@ -276,7 +272,7 @@ static void MX_USART2_UART_Init(void)
 
   /* USER CODE BEGIN USART2_Init 0 */
 
-  /* USER CODE END USART2_Init 0 */
+
 
   /* USER CODE BEGIN USART2_Init 1 */
 
