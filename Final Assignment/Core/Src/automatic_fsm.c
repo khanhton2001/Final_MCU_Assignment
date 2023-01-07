@@ -100,7 +100,7 @@ void automatic_run(){
 			UART_display();
 		}
 
-		if(isButtonPressed(1)==1){
+		if(isButtonPressed(1)){
 			autoClickButton1();
 			break;
 		}

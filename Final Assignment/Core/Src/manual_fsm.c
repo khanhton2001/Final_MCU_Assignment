@@ -31,7 +31,7 @@ void manual_run(){
 			break;
 
 		case MAN_RED_YELLOW:
-			if(isButtonPressed(3));
+			isButtonPressed(3);
 			if(timer1_flag) {
 				status = INIT;
 			}
