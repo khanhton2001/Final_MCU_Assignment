@@ -36,7 +36,7 @@ void configGreen2(){
 
 void configYellow2(){
 	yellowDuration2 = numberCounter;
-	greenDuration2 = redDuration1 - yellowDuration2;
+	greenDuration2 = redDuration1 - yellowDuration2; int counter = 1 ; 
 }
 
 
